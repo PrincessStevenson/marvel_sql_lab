@@ -107,7 +107,10 @@ WHERE year IN (2017, 2016);
 
 SELECT * FROM movies
 
-DELETE FROM people
-WHERE SUBSTR(name, 1, 1) = 'M';
 
-SELECT name FROM people;
+-- To delete all names of people who's names begin with the letter M
+-- -- DELETE FROM people
+-- -- WHERE SUBSTR(name, 1, 1) = 'M';
+
+-- -- SELECT name FROM people;
+-- the ^^ SELECT command prints out all the names from people after previous filters have been applied
